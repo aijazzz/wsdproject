@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>
+      Webshop product list
+    </title>
+  </head>
+  <body>
+
+    <h1>Product list</h1>
+
+    {% for o in object_list %}
+
+    <h2> {{o.title}} </h2>
+    <p> {{o.description}} </p>
+
+    {% endfor %}
+
+  </body>
+</html>
